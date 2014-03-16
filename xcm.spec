@@ -5,14 +5,14 @@
 Summary:	X Color Management tools
 Summary(pl.UTF-8):	Narzędzia X Color Management (do zarządzania kolorami w X)
 Name:		xcm
-Version:	0.5.2
+Version:	0.5.3
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://downloads.sourceforge.net/oyranos/%{name}-%{version}.tar.bz2
-# Source0-md5:	dff4b3bea61df71e6aaa450937ebba48
+# Source0-md5:	ed74e97ff6dc5b320e99caacc8511035
 URL:		http://www.oyranos.org/
-BuildRequires:	libXcm-devel
+BuildRequires:	libXcm-devel >= 0.5.3
 %{?with_oyranos:BuildRequires:	oyranos-devel}
 BuildRequires:	pkgconfig
 BuildRequires:	xorg-lib-libX11-devel
